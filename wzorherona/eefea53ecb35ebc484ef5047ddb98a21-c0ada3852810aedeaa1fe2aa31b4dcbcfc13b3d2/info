@@ -1,0 +1,6 @@
+--- built with
+as heron.s -g -o heron.o
+gcc main.c heron.o -o main -static
+
+--- relocation/final link error:
+- static
